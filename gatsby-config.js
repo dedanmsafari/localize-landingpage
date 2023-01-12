@@ -13,11 +13,20 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Raleway", "Lato", "Cabin"],
+        },
       },
     },
     {
@@ -115,7 +124,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/Flavicon.png`, // This path is relative to the root of the site.
       },
     },
   ],

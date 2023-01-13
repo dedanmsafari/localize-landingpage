@@ -174,7 +174,7 @@ const Home = () => {
           into the Metaverse nor the exploitation of the human psyche, but in
           going back to the initial goal of what its meant to be, to make
           everyone social and interactive, Every user being both an influencer
-          and consumer of content." ~ Dedan Msafari, Founder
+          and consumer of content." ~ Dedan Msafari, Co-Founder
         </Typography>
       </Grid>
     </Grid>

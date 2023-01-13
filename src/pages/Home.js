@@ -35,7 +35,7 @@ const Home = () => {
       setLoading(false)
       setTimeout(() => {
         setAlertMessage("")
-      }, 3000)
+      }, 3500)
       setEmail("")
     })
   }
@@ -91,7 +91,7 @@ const Home = () => {
               sx={{ color: "secondary.main", lineHeight: "2.3rem" }}
             >
               Breathe life to your area by engaging the locals. Share your
-              Interests, View and vibe with Arrivals. Explore different
+              Interests, meet and vibe with Arrivals. Explore different
               neighborhoods around the world from the natives eye. Our aim -
               make the next generation of social media users healthy and social.{" "}
               <br />
@@ -171,10 +171,10 @@ const Home = () => {
           }}
         >
           "The Future of Social Media lies not in the improvement of technology
-          into the Metaverse nor the exploitation of the human psyche,but in
-          going back to the initial goals of whats its meant to be,to make
-          everyone social and interactive,Every user being both an influencer
-          and consumer of content." ~ Dedan Msafari,Co-Founder
+          into the Metaverse nor the exploitation of the human psyche, but in
+          going back to the initial goal of what its meant to be, to make
+          everyone social and interactive, Every user being both an influencer
+          and consumer of content." ~ Dedan Msafari, Founder
         </Typography>
       </Grid>
     </Grid>

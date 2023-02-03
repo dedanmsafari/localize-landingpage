@@ -5,6 +5,13 @@ import Bio from "../components/ui/bio"
 import Layout from "../components/ui/layout"
 import Seo from "../components/ui/seo"
 
+export const Head = () => (
+  <>
+    <title>Localize - Socialize your Environs</title>
+    <meta name="description" content="Socialize your Environs" />
+  </>
+)
+
 const BlogIndex = ({ data, location }) => {
   // const siteTitle = data.site.siteMetadata?.title || `Title` in futre pass it to layout also pass location
   // const posts = data.allMarkdownRemark.nodes
